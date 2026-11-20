@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台灣鉤針材料包市場調研</title>
+<style>
+  :root{
+    --ink:#2b2622; --muted:#6f665e; --line:#e7dfd6; --bg:#faf7f3; --card:#ffffff;
+    --accent:#b5543c; --accent-soft:#f4e3dc; --sage:#5f7a63; --sage-soft:#e3ece4; --sand:#c79a4b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;font-size:16px}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+  header.hero{background:linear-gradient(135deg,#3a2f29 0%,#6b4433 100%);color:#fff;padding:64px 0 56px}
+  .eyebrow{letter-spacing:.18em;font-size:12px;text-transform:uppercase;opacity:.75}
+  h1{font-size:40px;line-height:1.3;margin:10px 0 16px;font-weight:700}
+  .lede{font-size:19px;max-width:760px;opacity:.95}
+  .meta{margin-top:22px;font-size:13px;opacity:.7}
+  section{padding:56px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:26px;margin:0 0 6px}
+  .sub{color:var(--muted);margin:0 0 28px}
+  h3{font-size:18px;margin:0 0 8px}
+  .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:-36px}
+  .kpi{background:var(--card);border-radius:14px;padding:22px 22px 18px;box-shadow:0 6px 20px rgba(60,40,30,.08)}
+  .kpi .num{font-size:30px;font-weight:700;color:var(--accent);line-height:1.2}
+  .kpi .lbl{font-size:14px;color:var(--muted);margin-top:6px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+  figure{margin:0}
+  figure img{width:100%;border-radius:12px;display:block;aspect-ratio:16/10;object-fit:cover;background:#eee}
+  figcaption{font-size:12.5px;color:var(--muted);margin-top:8px}
+  figcaption a{color:var(--muted)}
+  ul{padding-left:20px;margin:8px 0}
+  li{margin:4px 0}
+  .tag{display:inline-block;font-size:12px;padding:2px 10px;border-radius:999px;background:var(--accent-soft);color:var(--accent);margin-bottom:10px;font-weight:600}
+  .tag.sage{background:var(--sage-soft);color:var(--sage)}
+  .tag.sand{background:#f5ead6;color:#8a6420}
+  .chart{margin-top:8px}
+  .bar-row{display:grid;grid-template-columns:170px 1fr 90px;gap:12px;align-items:center;margin:14px 0}
+  .bar-row .name{font-size:14px}
+  .bar-track{background:#f0e9e2;border-radius:6px;height:26px;position:relative}
+  .bar{height:100%;border-radius:6px}
+  .bar-row .val{font-weight:700;font-size:15px}
+  .note{font-size:13px;color:var(--muted)}
+  .verdict{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .verdict .card{border-top:4px solid var(--accent)}
+  .verdict .card.pos{border-top-color:var(--sage)}
+  .verdict .card.neu{border-top-color:var(--sand)}
+  .opp{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .opp .card{position:relative;padding-left:70px}
+  .opp .n{position:absolute;left:22px;top:20px;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .callout{background:var(--accent-soft);border-left:4px solid var(--accent);padding:16px 20px;border-radius:8px;margin-top:24px}
+  .limits{background:#fff8e6;border:1px solid #f0dfb0;border-radius:12px;padding:18px 22px}
+  table{width:100%;border-collapse:collapse;font-size:14.5px;background:#fff;border-radius:12px;overflow:hidden}
+  th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{background:#f3ece5;font-weight:600}
+  ol.src{font-size:14px;padding-left:22px}
+  ol.src a{color:var(--accent);word-break:break-all}
+  footer{padding:30px 0 50px;font-size:13px;color:var(--muted)}
+  @media (max-width:820px){.kpis,.grid2,.grid3,.verdict,.opp{grid-template-columns:1fr}.bar-row{grid-template-columns:120px 1fr 70px}h1{font-size:30px}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Market Research · Crochet Kit · Taiwan</div>
+    <h1>台灣鉤針市場調研：<br>鉤針材料包還有潛力嗎？</h1>
+    <p class="lede">結論：需求面仍有潛力，但「毛線＋織圖」的一般材料包已是紅海。要做，就要賣「設計＋教學＋社群」，不是賣線材。</p>
+    <div class="meta">資料整理日期：2026-11-20（台北時間）｜台灣本地數據為推論，非實測，詳見「資料限制」</div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="kpis">
+    <div class="kpi"><div class="num">US$ 1.2–1.56 B</div><div class="lbl">2025 年全球 crochet kit 市場規模（2 家機構估算區間）</div></div>
+    <div class="kpi"><div class="num">1.5 倍以上</div><div class="lbl">日本手工藝店 2025 年 5 月毛線營收，相較前一年同期</div></div>
+    <div class="kpi"><div class="num">+136%</div><div class="lbl">美國編織、鉤針等手作相關搜尋，6 個月內成長（Michaels 2026）</div></div>
+  </div>
+</div>
+
+<!-- 1 市場現況 -->
+<section>
+  <div class="wrap">
+    <h2>1. 市場現況</h2>
+    <p class="sub">全球穩定成長、日美出現世代性熱潮；台灣有明顯跡象，但缺乏官方統計。</p>
+
+    <div class="grid2">
+      <div class="card">
+        <span class="tag">全球</span>
+        <h3>crochet kit 市場規模估算</h3>
+        <div class="chart">
+          <div class="bar-row"><div class="name">The Business Research Co.</div><div class="bar-track"><div class="bar" style="width:100%;background:var(--accent)"></div></div><div class="val">$1.56 B</div></div>
+          <div class="bar-row"><div class="name">Market Intelo</div><div class="bar-track"><div class="bar" style="width:77%;background:var(--sand)"></div></div><div class="val">$1.20 B</div></div>
+        </div>
+        <ul>
+          <li>TBRC：2030 年預估 US$ 2.28 B，CAGR 7.8%</li>
+          <li>Market Intelo：2034 年預估 US$ 1.9 B，CAGR 5.8%</li>
+          <li>兩家機構都說 APAC 是成長最快的區域</li>
+        </ul>
+        <p class="note">兩家估算差距約 30%，這類付費報告的數字只適合當方向參考。</p>
+      </div>
+
+      <figure>
+        <img src="https://news-data.pts.org.tw/media/238480/conversions/cover-big.webp" alt="日本 Z 世代毛線編織熱潮">
+        <figcaption>日本 Z 世代掀起毛線編織熱潮。圖片來源：<a href="https://news.pts.org.tw/article/757089" target="_blank">公視新聞網 PNN（美聯社資料照）</a></figcaption>
+      </figure>
+    </div>
+
+    <div class="grid3" style="margin-top:28px">
+      <div class="card">
+        <span class="tag sand">日本</span>
+        <h3>40 年來最熱</h3>
+        <ul>
+          <li>Z 世代受藝人在 IG 分享作品帶動</li>
+          <li>有手工藝店 2025 年 5 月毛線營收年增 1.5 倍以上</li>
+          <li>店家改成單捆拆賣，因為年輕人多做小玩偶、用量少</li>
+          <li>飯店舉辦編織聚會導客，每月約百人參加</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="tag sand">美國</span>
+        <h3>手作回流</h3>
+        <ul>
+          <li>手作相關搜尋 6 個月內成長 136%</li>
+          <li>毛線配件銷售年增 40%</li>
+          <li>Yelp 統計鉤針課程搜尋成長 220%</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="tag sage">台灣</span>
+        <h3>教學端活躍、供給端分散</h3>
+        <ul>
+          <li>毛線森林等教室兼品牌，經營「材料包＋影片」組合</li>
+          <li>經營者說在教學現場明顯感受到 Z 世代編織潮</li>
+          <li>台北大同區等地有許多傳統毛線行，同時開課</li>
+          <li>電商上大量「日系毛線＋織圖」材料包</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 競爭版圖 -->
+<section>
+  <div class="wrap">
+    <h2>2. 競爭版圖</h2>
+    <p class="sub">市場依價格帶分成三層，低價和中價都很擁擠，高價的「體驗型」才有定價空間。</p>
+
+    <div class="grid2">
+      <figure>
+        <img src="https://s.teachifycdn.com/image/width=1200,quality=80/course/cover_photo/20a61908-90ae-4246-9e3e-5503c494f7a1/55c36216-59be-4717-980c-dbc0a7b57224.png" alt="毛線森林 新手小白的第一堂鉤針編織課">
+        <figcaption>教學型品牌代表：毛線森林「新手小白的第一堂鉤針編織課」，約 9.3 小時、8 樣作品。圖片來源：<a href="https://yarnforest.tw/courses/system03" target="_blank">毛線森林官網</a></figcaption>
+      </figure>
+      <figure>
+        <img src="https://i7.momoshop.com.tw/1768005592/goodsimg/TP000/6930/0000/010/TP00069300000010_R_m.jpg" alt="台灣製毛線 DIY 材料包">
+        <figcaption>傳統線材型：台灣製毛線 DIY 材料包，momo 促銷價 NT$ 300。圖片來源：<a href="https://www.momoshop.com.tw/TP/TP0006930/goodsDetail/TP00069300000010" target="_blank">momo 購物網</a></figcaption>
+      </figure>
+    </div>
+
+    <table style="margin-top:28px">
+      <tr><th style="width:18%">價格帶</th><th style="width:24%">代表業者</th><th>特徵</th><th style="width:22%">對新進者的意義</th></tr>
+      <tr><td>低價<br><span class="note">約 NT$ 100 以下</span></td><td>SHEIN 等中國入門套組</td><td>鉤針＋記號扣＋線材＋影片，例如 Jeslon 入門套組約 NT$ 94</td><td>無法用價格競爭</td></tr>
+      <tr><td>中價<br><span class="note">約 NT$ 100–500</span></td><td>傳統毛線行、代理商（蝦皮、Yahoo、momo）</td><td>日系線材（Olympus、Hamanaka、PUPPY）＋日文織圖，多半不含工具、不提供教學</td><td>容易被比價，毛利薄</td></tr>
+      <tr><td>中高價<br><span class="note">課程＋材料</span></td><td>毛線森林、夢夢 x 手作等教學品牌</td><td>完整影片教學、作品設計、社群經營，材料包是課程耗材</td><td>可參考的成功模式</td></tr>
+    </table>
+    <p class="note" style="margin-top:10px">價格帶為依搜尋到的商品頁歸納，非全面統計。</p>
+  </div>
+</section>
+
+<!-- 3 判斷 -->
+<section>
+  <div class="wrap">
+    <h2>3. 判斷</h2>
+    <p class="sub">有需求，但不在「賣線」那一層。</p>
+    <div class="verdict">
+      <div class="card pos"><h3>需求面：正面</h3><p>日本和台灣消費文化接近，日本熱度有很大機會延續到台灣。不過目前沒有台灣銷售數據可以證明。</p></div>
+      <div class="card"><h3>一般材料包：紅海</h3><p>線材容易比價，加上中國低價貨夾擊，「毛線＋織圖」的標準材料包毛利會很薄。</p></div>
+      <div class="card neu"><h3>真正賣錢的是體驗</h3><p>成功業者賣的是「看影片保證做得出來」的完成感，毛線只是載具。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 切入方向 -->
+<section>
+  <div class="wrap">
+    <h2>4. 有機會的切入方向</h2>
+    <p class="sub">差異化放在設計、內容、通路，而不是線材。</p>
+    <div class="opp">
+      <div class="card"><div class="n">1</div><h3>IP 或在地主題材料包</h3><p>台灣小吃、在地動物、文創聯名的 amigurumi 小物。Licensed character collaborations 被市場報告點名為主要趨勢，客單價也拉得高。</p></div>
+      <div class="card"><div class="n">2</div><h3>零失敗新手包＋影片教學</h3><p>主打一個下午就能完成的小物（花、吊飾、杯墊），搭配 Reels、TikTok 經營內容，鎖定 20–35 歲上班族女性。</p></div>
+      <div class="card"><div class="n">3</div><h3>體驗型 B2B 通路</h3><p>和飯店、咖啡廳、企業福委會合作辦編織工作坊，材料包當作課程耗材。日本已有飯店編織聚會導客的案例，和 hospitality 資源接得上。</p></div>
+      <div class="card"><div class="n">4</div><h3>訂閱制或季節系列</h3><p>每月一款，降低獲客成本、提高回購率。</p></div>
+    </div>
+
+    <figure style="margin-top:28px;max-width:640px">
+      <img src="https://s.teachifycdn.com/image/width=1920,quality=80,format=webp/attachment/public_image/6a4ed571-df25-4e76-9bcb-bdfdd1c5e823/2c40247f-3dee-47f8-a280-24d7bd65a609.jpg" alt="毛線森林 方糖金斜側背包作品">
+      <figcaption>「課程＋作品」範例：毛線森林課程中的方糖金斜側背包。圖片來源：<a href="https://yarnforest.tw/courses/system03" target="_blank">毛線森林官網</a></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- 5 下一步 -->
+<section>
+  <div class="wrap">
+    <h2>5. 下一步：要補的驗證數據</h2>
+    <div class="grid3">
+      <div class="card"><span class="tag sage">1</span><h3>搜尋趨勢</h3><p>台灣 Google Trends 上「鉤針」「材料包」近 5 年的搜尋曲線。</p></div>
+      <div class="card"><span class="tag sage">2</span><h3>電商銷量</h3><p>蝦皮、Pinkoi 熱銷材料包的已售數量和價格帶。</p></div>
+      <div class="card"><span class="tag sage">3</span><h3>社群熱度</h3><p>Threads、IG 上相關 hashtag 的貼文量變化。</p></div>
+    </div>
+
+    <div class="limits" style="margin-top:28px">
+      <h3>資料限制</h3>
+      <ul>
+        <li>沒有找到台灣鉤針或材料包市場規模的官方統計，也沒有可信的產業報告。</li>
+        <li>對台灣的判斷，是從電商上架狀況、教室與品牌動態，以及日本、美國趨勢推論，不是實測數字。</li>
+        <li>全球市場規模來自付費研究報告的公開摘要，不同機構差距約 30%。</li>
+        <li>圖片以外部網址引用官方或媒體來源，離線或來源網站改版時可能無法顯示。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Sources -->
+<section style="border-bottom:none">
+  <div class="wrap">
+    <h2>Sources</h2>
+    <ol class="src">
+      <li><a href="https://news.pts.org.tw/article/757089" target="_blank">公視新聞網：明星藝人帶動風潮 日本 Z 世代掀毛線編織熱</a></li>
+      <li><a href="https://gcn.com/?p=21932" target="_blank">GCN：Searches for crochet classes and sewing stores surged（引 Michaels 2026 Creativity Trend Report、Yelp 2026 Trend Forecast）</a></li>
+      <li><a href="https://www.thebusinessresearchcompany.com/report/crochet-kit-market-report" target="_blank">The Business Research Company：Crochet Kit Market Report 2026</a></li>
+      <li><a href="https://marketintelo.com/report/crochet-kit-market" target="_blank">Market Intelo：Crochet Kit Market Research Report 2034</a></li>
+      <li><a href="https://yarnforest.waca.tw/" target="_blank">毛線森林官網</a></li>
+      <li><a href="https://yarnforest.tw/courses/system03" target="_blank">毛線森林：超完整！新手小白的第一堂鉤針編織課</a></li>
+      <li><a href="https://emily.com.tw/" target="_blank">夢夢 x 手作</a></li>
+      <li><a href="https://17crafting.com/yarn-store/" target="_blank">17crafting：毛線尋寶地圖</a></li>
+      <li><a href="https://www.momoshop.com.tw/TP/TP0006930/goodsDetail/TP00069300000010" target="_blank">momo 購物網：台灣製復古羊毛線 DIY 材料包</a></li>
+      <li><a href="https://m.shein.tw/Jeslon%20Crochet%20Starter%20Kit%20Includes%20Crochet%20Hooks%20Markers%20And%20Needles%20With%20Step%20By%20Step%20Video%20Tutorials%20Perfect%20Gift%20For%20Beginners%20Purple%20Mini%20Penguin-p-82608970.html" target="_blank">SHEIN：Jeslon 鉤針入門套組</a></li>
+    </ol>
+  </div>
+</section>
+
+<footer><div class="wrap">本頁為研究整理，市場數字為第三方估算，僅供決策參考。</div></footer>
+</body>
+</html>
